@@ -12,7 +12,7 @@
         <h1>AI generator workout plan</h1>
         <h2>Time to get fit</h2>
       </header>
-      <form>
+      <form class="plan-form">
         <input
           type="text"
           placeholder="enter musclegroup to train"
@@ -22,9 +22,14 @@
           class="user-instruction"
           id="user-instruction"
         />
-        <input type="submit" value="create" />
-        <div class="hint">ie.glutes, chest, legs, etc.</div>
+        <input
+          type="submit"
+          value="Create"
+          class="create-button"
+          id="create-button"
+        />
       </form>
+      <div class="hint">ie.glutes, chest, legs, etc.</div>
       <main>
         <div class="workout-plan">Leg press</div>
       </main>
