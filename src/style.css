@@ -66,6 +66,11 @@ h2 {
 }
 .workout-plan {
   padding: 20px;
+  line-height: 30px;
+}
+
+ul {
+  list-style: none;
 }
 
 footer {
