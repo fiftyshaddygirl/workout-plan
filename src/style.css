@@ -18,6 +18,7 @@ h1,
 h2 {
   font-size: 45px;
   margin: 0;
+  padding-bottom: 20px;
 }
 
 .plan-form {
@@ -58,14 +59,14 @@ h2 {
 .hint {
   font-size: 10px;
   text-align: left;
-  margin: 8px 0 0 130px;
+  margin: 8px 0 20px 130px;
 }
 
 .hint:hover {
   font-size: 20px;
 }
 .workout-plan {
-  padding: 20px;
+  padding: 20px 0 0;
   line-height: 30px;
 }
 
